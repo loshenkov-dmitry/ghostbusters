@@ -625,9 +625,8 @@ color: #000000;
     }
 
     .search__input {
-        margin-right: auto;
         height: 50px;
-        margin: 0;
+        margin: 10px auto 10px;
         width: 260px;
         border-radius: 5px;
         background-position: center left 10px;
