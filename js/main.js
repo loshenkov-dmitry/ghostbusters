@@ -56,6 +56,7 @@ $(document).ready(function () {
                 navigation: {
                     nextEl: '.button-next',
                 }
+            }
           }
       }
     })
