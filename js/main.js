@@ -49,7 +49,13 @@ $(document).ready(function () {
               slidesOffsetAfter: 50,
               navigation: {
                   nextEl: '.button-next',
-              }
+              },
+              320: {
+                slidesPerView: 1,
+                slidesOffsetAfter: 50,
+                navigation: {
+                    nextEl: '.button-next',
+                }
           }
       }
     })
