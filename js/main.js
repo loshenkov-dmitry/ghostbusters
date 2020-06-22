@@ -49,15 +49,16 @@ $(document).ready(function () {
               slidesOffsetAfter: 50,
               navigation: {
                   nextEl: '.button-next',
-              },
-              320: {
+              }
+              
+          },
+          300: {
                 slidesPerView: 1,
                 slidesOffsetAfter: 50,
                 navigation: {
                     nextEl: '.button-next',
                 }
             }
-          }
       }
     })
   });
