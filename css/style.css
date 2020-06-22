@@ -559,12 +559,13 @@ color: #000000;
 
     .button-group::before {
         content: '';
-    display: block;
-    height: 1px;
-    background-color: #D4D4D4;
-    position: absolute;
-    bottom: 143px;
-    width: 100%;
+        display: block;
+        height: 1px;
+        background-color: #D4D4D4;
+        position: absolute;
+        width: 100%;
+        /* bottom: 100%; */
+        top: -40px;
     }
 
 
@@ -573,7 +574,7 @@ color: #000000;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 0 0 60px;
     }
 
     .navigation__link {
